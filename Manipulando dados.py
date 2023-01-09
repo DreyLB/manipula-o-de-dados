@@ -11,7 +11,7 @@ def abrir_leitura(caminho):
 caminho = 'E:\VS Code Python\Manipulação de Arquivos\salarios.txt'
 dados = abrir_leitura(caminho)
 tamanho = len(dados)
-for c in range(100):
+for c in range(tamanho):
     print('\n')
     for i in range(4):
         print(f'{dados[0][i]}: {dados[c][i]}')
